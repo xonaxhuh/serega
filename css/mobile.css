@@ -1,0 +1,290 @@
+.container {
+	padding: 0 16px;
+	max-width: 344px;
+}
+
+.header {
+	height: auto;
+	background-image: none;
+}
+
+.header-container {
+	padding-top: 42px;
+}
+
+.label {
+	display: block;
+	width: 25px;
+	margin-left: auto;
+	z-index: 2001;
+	height: 13px;
+	background-size: contain;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-image: url('../img/checkbox.png');
+}
+
+.label:hover {
+	cursor: pointer;
+}
+
+.header-navigation {
+	justify-content: space-between;
+}
+
+#header-checkbox {
+	display: none;
+}
+
+.scroll-image {
+	display: none;
+}
+
+.header-nav {
+	display: none;
+}
+
+#header-checkbox:checked ~ .header-nav {
+	display: flex;
+}
+
+.header-list {
+	position: fixed;
+	top: 82px;
+	left: 0;
+	right: 0;
+	flex-direction: column;
+	align-items: center;
+	padding-left: 0;
+	padding-top: 42px;
+	padding-bottom: 10px;
+	width: 100vw;
+	z-index: 2000;
+	background-color: #1b004e;
+}
+
+.section-title-white {
+	margin-bottom: 60px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 30px;
+	color: #fff;
+}
+
+.header-btn {
+	display: none;
+}
+
+.logo-link {
+	width: 124px;
+	height: 30px;
+}
+
+.section-title-black {
+	margin-bottom: 60px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 30px;
+	color: #000;
+}
+
+.main-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 100%;
+	text-align: center;
+}
+
+.main-descr, .main-title {
+	max-width: 344px;
+}
+
+.main-title {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 32px;
+}
+
+.main-btn {
+	margin-bottom: 50px;
+}
+
+.dn {
+	display: none;
+}
+
+.benefits-container > h2 {
+	margin-bottom: 30px;
+}
+
+.benefits-block {
+	flex-direction: column;
+	align-items: center;
+}
+
+.benefit-card {
+	margin-bottom: 50px;
+}
+
+.benefits-list, .benefits-card-title {
+	text-align: center;
+}
+
+.benefit-card {
+	background-position: center top;
+}
+
+.benefits-card-title {
+	font-size: 18px;
+	line-height: 14px;
+}
+
+.benefits-item {
+	font-size: 14px;
+	line-height: 1;
+}
+
+.benefits-section {
+	padding: 0;
+}
+
+.benefits-container {
+	padding-top: 51px;
+}
+
+.benefits-item:not(:last-child) {
+	margin-bottom: 15px;
+}
+
+.app-container {
+	flex-direction: column;
+	align-items: center;
+	height: auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.app-container > .section-title-white, .app-descr {
+	max-width: 100%;
+	text-align: center;
+}
+
+.app-descr {
+	font-size: 14px;
+	line-height: 24px;
+	margin-bottom: 30px;
+}
+.app-container > .section-title-white {
+	font-size: 20px;
+	line-height: 30px;
+}
+
+#app-bg {
+	width: 203px;
+	height: 215px;
+	margin-bottom: 30px;
+	background-image: url('../img/mob-app-bg.png');
+}
+
+.app-link {
+	width: 100px;
+	height: 35px;
+}
+
+.app-links-block {
+	order: 1;
+	max-width: 221px;
+}
+
+.news-container {
+	padding-top: 36px;
+}
+
+.news-container > .section-title-black {
+	margin-bottom: 52px;
+	font-size: 32px;
+	line-height: 1;
+}
+
+.news-list {
+	flex-direction: column;
+}
+
+.news-item {
+	max-width: 100%;
+	margin-bottom: 36px;
+}
+
+.article-wrapper {
+	padding-left: 7px;
+	padding-right: 7px;
+}
+
+.email-container {
+	padding-top: 50px;
+	padding-bottom: 55px;
+}
+
+.email-container > .section-title-white {
+	font-size: 24px;
+	line-height: 1;
+}
+
+.subscribe-text {
+	margin-bottom: 30px;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.email-form {
+	padding: 4px;
+}
+
+.form-btn {
+	padding: 13px 34px;
+	font-size: 14px;
+	line-height: 1;
+}
+
+.footer-block {
+	flex-direction: column;
+	padding-bottom: 0;
+	margin-bottom: 26px;
+}
+
+.footer-list-block {
+	margin-bottom: 30px;
+}
+
+.footer-list-title {
+	margin-bottom: 20px;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.footer-list-item > a {
+	font-size: 14px;
+	line-height: 10px;
+}
+
+.footer-contacts {
+	flex-wrap: wrap-reverse;
+	justify-content: center;
+}
+
+.contacts-list {
+	margin-bottom: 26px;
+}
+
+.footer-container {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.email-input::placeholder {
+	font-size: 12px;
+	line-height: 15px;
+}
